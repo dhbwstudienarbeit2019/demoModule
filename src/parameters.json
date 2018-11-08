@@ -1,0 +1,39 @@
+{
+  "$scheme": "https://raw.githubusercontent.com/dhbwstudienarbeit2019/frontend/parameter-scheme/frontend/src/schema/parameters.schema.json",
+  "item": [
+    {
+      "name": "stepSize",
+      "description": "how big steps are",
+      "parameter": {
+        "minimum": 0,
+        "maximum": 100,
+        "value": 0
+      }
+    },
+    {
+      "name": "goRectangular",
+      "description": "Whether diagonal steps are allowed or not",
+      "parameter": {
+        "value": true
+      }
+    },
+    {
+      "name": "X-Startposition",
+      "description": "The X Coordinate where the algorithm starts",
+      "parameter": {
+        "minimum": -100,
+        "maximum": 100,
+        "value": 0
+      }
+    },
+    {
+      "name": "Y-Startposition",
+      "description": "The Y Coordinate where the algorithm starts",
+      "parameter": {
+        "minimum": -100,
+        "maximum": 100,
+        "value": 0
+      }
+    }
+  ]
+}
